@@ -1,2 +1,0 @@
-rootProject.name = 'jlink-101'
-include('app')
