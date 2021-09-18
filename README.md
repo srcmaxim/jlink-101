@@ -14,3 +14,10 @@ Build on machine:
 ```
 ./gradlew app:jlink
 ```
+
+To package your app use:
+```
+jpackage \
+  --runtime-image app/build/jre \
+  --module jlink.app/com.github.srcmaxim.jlink.App
+```
